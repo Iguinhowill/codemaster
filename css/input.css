@@ -1,0 +1,94 @@
+input[type=checkbox] + label{
+    display: block;
+    margin: 0.4em;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox] + label:before{
+    content: "\2714";
+    color: transparent;
+    padding: 1px 5px;
+    display: inline-flex;
+    border: 1px #000 solid;
+    border-radius: 100%;
+    margin-right: 20px;
+    transition: .2s;
+    vertical-align: bottom;
+}
+
+input[type=checkbox]:checked + label:before{
+    background-color: #D6000D;
+    color: #fff;
+    border: 1px #D6000D solid;
+}
+
+input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+
+.section-form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.article-form {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.article-form-second{
+    width: 100%;
+}
+
+.label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+form{
+    display: inline;
+    width: 300px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.article-form-contato{
+    margin: 30px 0px 200px 160px
+}
+
+.paragraph._second{
+    margin-bottom: 10px;
+}
+
+.contato{
+    height: 43px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0px 17px;
+    margin-right: 15px;
+}
+
+.contato-submit{
+    height: 43px;
+    border: none;
+    background-color: #D6000D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0px 27px;
+    border-radius: 10px;
+    font-weight: bold;
+}

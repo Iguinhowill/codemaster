@@ -1,18 +1,20 @@
 .button{
     display: inline-block;
     background-color: #D6000D;
-    padding: 7px 45px;
+    padding: 8px 35px;
     border-radius: 10px;
     text-decoration: none;
     margin-left: 25px;
     color: #fff;
-    height: 20px;
 }
 
 .button:hover{
     /* background-color: rgb(110, 2, 2); */
     opacity: 0.8;
 }
+
+
+
 .action{
     text-align: center;
     text-decoration: none;
@@ -26,8 +28,6 @@
     margin-top: 15px;
 }
 
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -38,20 +38,22 @@ header{
 .main-title{
     font-size: 50px;
     margin-top: 5px;
-    margin-left: 40px;
+    margin-left: 20px;
     color: #D6000D;
     font-style: italic;
 }
 
-.main-title::before{
+.main-title::after{
     content: '.';
     color: black;
     font-size: 50px;
 }
-.div{
+
+.article{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .title-secondary{
@@ -62,23 +64,29 @@ header{
     margin-bottom: 30px;
 }
 
-.div2{
-    margin-top: 40px;
+.div2{  
+    font-size: 22px;
+    margin-top: 60px;
     text-align: left;
     margin-left: 60px;
+    margin-right: 180px;
 }
 
-.imagem-section{
-    width: 300px;
+.img{
+    width: 400px;
     height: auto;
+    margin-left: 200px;
 }
 
 .button._second{
     margin: 0px;
 }
 
-
 .paragraph{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.section{
+    font-family: 'Roboto', sans-serif;
 }
